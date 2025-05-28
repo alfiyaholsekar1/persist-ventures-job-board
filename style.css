@@ -1,0 +1,47 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f6f9fc;
+}
+header {
+background: #262f72;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.logo {
+height: 60px;
+margin-bottom: 10px;
+}
+main {
+padding: 20px;
+max-width: 700px;
+margin: auto;
+}
+.job {
+background: white;
+border: 1px solid #ccc;
+margin-bottom: 12px;
+padding: 15px;
+cursor: pointer;
+border-radius: 8px;
+}
+.job:hover {
+background: #e9f0ff;
+}
+form input, form button {
+display: block;
+width: 100%;
+padding: 12px;
+margin: 10px 0;
+}
+form button {
+background: #262f72;
+color: white;
+border: none;
+cursor: pointer;
+}
+form button:hover {
+background: #1b2255;
+}
